@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web"
+        android:padding="8dp"
+        android:text="@string/m_pesa_in_app_payment"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web"
+        android:padding="8dp"
+        android:text="@string/m_pesa_will_send_a_payment_request_to_the_number_entered_below_once_you_receive_the_request_just_enter_your_service_bonga_pin_to_complete_the_transaction" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/titillium_web"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/titillium_web"
+        android:hint="Top Up Amount"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp">
+
+        <requestFocus />
+    </EditText>
+
+
+</LinearLayout>

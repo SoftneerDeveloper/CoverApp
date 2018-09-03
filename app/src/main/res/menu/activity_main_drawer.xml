@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <!--<item-->
+            <!--android:id="@+id/nav_assets"-->
+            <!--android:icon="@drawable/ic_coverapp_assets_icon"-->
+            <!--android:title="My Assets" />-->
+        <item
+            android:id="@+id/nav_topup"
+            android:icon="@drawable/ic_account_balance_wallet_grey_24dp"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_covers"
+            android:icon="@drawable/ic_cover_menu_icon_grey_24dp"
+            android:title="Covers" />
+        <!--<item-->
+            <!--android:id="@+id/nav_claims"-->
+            <!--android:icon="@drawable/ic_action_coverapp_claims_icon"-->
+            <!--android:title="Claims" />-->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help" />
+        </menu>
+    </item>
+
+    <item android:title="Legal">
+        <menu>
+            <item
+                android:id="@+id/nav_terms"
+                android:title="Terms and Conditions" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About CoverApp" />
+        </menu>
+    </item>
+
+</menu>

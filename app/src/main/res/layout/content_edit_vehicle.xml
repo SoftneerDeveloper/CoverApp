@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_vehicle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.coverapp.coverapp.activities.EditVehicleActivity"
+    tools:showIn="@layout/activity_edit_vehicle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/edit_vehicle_image_one"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_one_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_one_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:id="@+id/edit_vehicle_image_two"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:background="@android:color/white"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_two_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_two_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/edit_vehicle_image_three"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_three_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_three_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:id="@+id/edit_vehicle_image_four"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_four_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/edit_vehicle_image_four_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_vehicle_layout_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_vehicle_make"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/make_and_model"
+                    android:inputType="text|textCapWords"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_vehicle_layout_yom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_vehicle_yom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/year_of_manufacture"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/edit_vehicle_layout_plate_first"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_vehicle_plate_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="KKK"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="3"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/edit_vehicle_layout_plate_last"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edit_vehicle_plate_last"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_edittext"
+                        android:inputType="textCapCharacters"
+                        android:hint="123Y"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_vehicle_layout_odometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_vehicle_odometer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/odometer_reading"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_vehicle_layout_engine_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_vehicle_engine_capacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/engine_cc"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_vehicle_layout_car_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_vehicle_car_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:hint="@string/car_value_estimate"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/edit_vehicle_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_bg"
+                android:padding="20dp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

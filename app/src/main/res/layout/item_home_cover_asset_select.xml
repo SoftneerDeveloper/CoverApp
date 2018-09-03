@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:background="@drawable/inner_bg"
+        card_view:cardCornerRadius="0dp">
+
+        <LinearLayout
+            android:id="@+id/asset_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_one"
+                android:layout_height="100dp"
+                android:layout_width="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/side_icon"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/titillium_web"
+                    android:gravity="end"
+                    android:text="Kitengela Rental Property"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryLight" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/titillium_web"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:text="This is the property past Nomads hotel. 3 bedrooms and 2 bathrooms."
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <!--<Button-->
+                        <!--android:id="@+id/view_asset"-->
+                        <!--style="?android:attr/borderlessButtonStyle"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="View"-->
+                        <!--android:textAllCaps="false"-->
+                        <!--android:textColor="@color/colorAccent"/>-->
+
+                    <CheckBox
+                        android:id="@+id/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:theme="@style/MyCheckBox" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="20dp">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="0.9"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image_one"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="0.3"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:src="@drawable/custom" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image_two"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="0.3"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:src="@drawable/custom" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image_three"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="0.3"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:src="@drawable/custom" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="end"-->
+        <!--android:padding="1dp"-->
+        <!--android:text="Samsung TV"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:textColor="@color/colorPrimaryText"-->
+        <!--android:textStyle="bold" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/description"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="1dp"-->
+        <!--android:text="52 inch black tv with no scratches anywhere, and some extra data that  describes the tv very well"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LegacyLifeClaims">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_introductory_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="To make a claim, we require the following documents:" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="You can choose to upload a scanned copy or take a photo of the documents" />
+
+                <Button
+                    android:id="@+id/buttonproceed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_Burial_Permit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:layout_editor_absoluteY="215dp">
+
+                <TextView
+                    android:id="@+id/textViewBurialPermit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="Step 1: Original Burial Permit"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewBurial_Permit"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/upload_file" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonScannedBurial_Permit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Upload Scanned Copy"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/buttonImageBurial_Permit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Camera"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonProceed2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_claimant_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:layout_editor_absoluteY="338dp">
+
+                <TextView
+                    android:id="@+id/textViewclaimant_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="Step 2: Original Id of Claimant. In this case, the claimant in likely to be the beneficiary."
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewclaimant_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/upload_file" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonScannedclaimant_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Upload Scanned Copy"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/buttonImageclaimant_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Camera"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonProceed3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_Surrender_Letter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textViewSurrender_Letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="Step 3: Original Surrender Letter or I.D. Card of the deceased"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewSurrender_Letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/upload_file" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonScannedSurrender_Letter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Upload Scanned Copy"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/buttonImageSurrender_Letter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Camera"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonProceed4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_Claimant_Statement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView_Claimant_Statement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="Step 4: Claimant's statement duly signed by the claimant"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView_Claimant_Statement"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/upload_file" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_Scanned_Claimant_Statement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Upload Scanned Copy"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/buttonImage_Claimant_Statement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Camera"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonProceed5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_hospital_discharge_summary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textViewhospital_discharge_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#f2e8c1"
+                    android:padding="5dp"
+                    android:text="Step 5: Hospital Discharge summary"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageViewhospital_discharge_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/upload_file" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonScannedhospital_discharge_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Upload Scanned Copy"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/buttonImagehospital_discharge_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Camera"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonProceed6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

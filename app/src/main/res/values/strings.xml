@@ -1,0 +1,928 @@
+<resources>
+    <string name="app_name">CoverApp</string>
+    <string name="baseUrl">http://api.coverappke.com</string>
+    <string name="site_url">http://api.coverappke.com</string>
+
+    <string name="progress_login">Logging in…</string>
+
+    <string name="title_assets">Assets</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_claims">Claims</string>
+    <string name="title_products">Our Products</string>
+    <string name="fragment_products">Our Products</string>
+    <string name="title_settings">Settings</string>
+
+    <string-array name="period_options">
+        <item>Select Payment Plan</item>
+        <item>Monthly</item>
+        <!--<item>Quarterly</item>-->
+        <!--<item>Bi-Annually</item>-->
+        <item>Annually</item>
+    </string-array>
+
+    <string-array name="partner_options">
+        <item>Select Partner</item>
+        <item>Partner 1</item>
+        <item>Partner 2</item>
+        <item>Partner 3</item>
+        <item>Partner 4</item>
+    </string-array>
+
+    <string-array name="what_is_covered">
+        <item>Select cause of damage</item>
+        <item>Theft</item>
+        <item>Accidental &amp; malicious damage</item>
+        <item>Fire (Smoke &amp; flames)</item>
+        <item>Flood &amp; water damage</item>
+        <item>Natural disasters</item>
+        <item>Riot &amp; strike</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="asset_options">
+        <item>Select Asset</item>
+        <item>Samsung Galaxy S8</item>
+        <item>LG Smart TV 64 inch</item>
+        <item>PS4 4K</item>
+    </string-array>
+
+    <string-array name="asset_categories">
+        <item>Select Asset Category</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Appliances</item>
+    </string-array>
+
+    <string-array name="asset_types">
+        <item>Select Asset Type</item>
+        <item>Phone</item>
+        <item>Tablet</item>
+        <item>Laptop</item>
+        <item>TV</item>
+    </string-array>
+
+    <string-array name="asset_list">
+        <item>Samsung TV 62</item>
+        <item>LG Dishwasher</item>
+        <item>Brown leather sofaset</item>
+    </string-array>
+
+    <string-array name="payment_period">
+        <item></item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>BiAnnually</item>
+        <item>Annually</item>
+    </string-array>
+
+    <string-array name="parent_relationship">
+        <item></item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Mother-In-Law</item>
+        <item>Father-In_Law</item>
+    </string-array>
+
+    <string-array name="commercial_or_private">
+        <item></item>
+        <item>Commercial</item>
+        <item>Private</item>
+    </string-array>
+
+    <string-array name="reason_for_travel">
+        <item></item>
+        <item>Medical</item>
+        <item>Study</item>
+        <item>Leisure</item>
+        <item>Business</item>
+    </string-array>
+
+    <string-array name="travel_pricing">
+        <item></item>
+        <item>Standard Rates</item>
+        <item>Annual Multi-trip</item>
+    </string-array>
+
+    <string-array name="travel_pricing2">
+        <item>Student Rates</item>
+    </string-array>
+
+    <string-array name="covertypes">
+        <item></item>
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Platinum</item>
+    </string-array>
+
+    <string-array name="travel_plan">
+        <item></item>
+        <item>EUROPE</item>
+        <item>BASIC</item>
+        <item>COMFORT</item>
+        <item>ELITE</item>
+        <item>PLATINUM</item>
+    </string-array>
+
+    <string-array name="countries_of_the_world">
+        <item></item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Myanmar/Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominican Republic</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Great Britain</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel and the Occupied Territories</item>
+        <item>Italy</item>
+        <item>Ivory Coast (Cote d'Ivoire)</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyz Republic (Kyrgyzstan)</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Republic of Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Moldova, Republic of</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Korea, Democratic Republic of (North Korea)</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pacific Islands</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent's and Grenadines</item>
+        <item>Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovak Republic (Slovakia)</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>Korea, Republic of (South Korea)</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United States of America (USA)</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands (UK)</item>
+        <item>Virgin Islands (US)</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Myanmar/Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominican Republic</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Great Britain</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel and the Occupied Territories</item>
+        <item>Italy</item>
+        <item>Ivory Coast (Cote d'Ivoire)</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyz Republic (Kyrgyzstan)</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Republic of Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Moldova, Republic of</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Korea, Democratic Republic of (North Korea)</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pacific Islands</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent's and Grenadines</item>
+        <item>Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovak Republic (Slovakia)</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>Korea, Republic of (South Korea)</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United States of America (USA)</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands (UK)</item>
+        <item>Virgin Islands (US)</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Myanmar/Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominican Republic</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Great Britain</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel and the Occupied Territories</item>
+        <item>Italy</item>
+        <item>Ivory Coast (Cote d'Ivoire)</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyz Republic (Kyrgyzstan)</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Republic of Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Moldova, Republic of</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Korea, Democratic Republic of (North Korea)</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pacific Islands</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent's and Grenadines</item>
+        <item>Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovak Republic (Slovakia)</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>Korea, Republic of (South Korea)</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United States of America (USA)</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands (UK)</item>
+        <item>Virgin Islands (US)</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="invalid_fname">Invalid first name</string>
+    <string name="invalid_names3">Invalid Name</string>
+    <string name="invalid_make">Invalid Make</string>
+    <string name="invalid_model">Invalid Model</string>
+    <string name="invalid_regNumberPlates">Invalid Registration Number</string>
+    <string name="invalid_invalidDeliveryAddress">Invalid Delivery Address</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="invalid_lname">Invalid last name</string>
+    <string name="invalid_vid">invalid vendor id</string>
+    <string name="invalid_amount">Enter amount</string>
+    <string name="invalidUsername">Username should be more than 5 characters long</string>
+    <string name="invalidPassword">Password should be more than 5 characters long</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="invalid_pass_rest">The passwords must match</string>
+    <string name="invalid_gender">Select gender please</string>
+    <string name="invalid_account_number">Invalid account number</string>
+    <string name="inalid_number">Invalid number</string>
+    <string name="invalid_pass_match">Needs to match the password</string>
+
+    <string name="fragment_tag_assets">AssetsFragment</string>
+    <string name="fragment_tag_profile">ProfileFragment</string>
+    <string name="fragment_tag_claims">ClaimsFragment</string>
+    <string name="fragment_tag_settings">SettingsFragment</string>
+    <string name="fragment_tag_home">HomeFragment</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="progress_registration">Signing up…</string>
+    <string name="terms_accept_reminder">You need to accept the terms and conditions</string>
+    <string name="success_registration">Successful Registration</string>
+
+
+    <string name="title_activity_getting_started">Getting Started Activity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_corousel">CorouselActivity</string>
+    <string name="title_activity_tips_alerts">Tips and Alerts</string>
+    <string name="title_experience_cover">Experience Cover</string>
+    <string name="title_activity_experience_cover">Experience Cover</string>
+    <string name="title_activity_add_cover">Add Cover</string>
+    <string name="title_activity_emergency_bundle">Emergency Cover</string>
+    <string name="title_activity_motor_bundle">Vehicle Cover</string>
+    <string name="title_activity_home_bundle">Home Cover</string>
+    <string name="title_activity_custom_bundle">Customised Cover</string>
+    <string name="title_activity_feedback">Feedback</string>
+
+    <string name="mpesa_menu_1">1. Go to M-Pesa menu from your Safaricom Sim-Card</string>
+    <string name="mpesa_menu_2">2. Go to Lipa na M-Pesa</string>
+    <string name="mpesa_menu_3">3. Go to Pay Bill</string>
+    <string name="mpesa_menu_4">4. Go to enter business number </string>
+    <string name="mpesa_menu_5">5. Enter 510800 as the business number</string>
+    <string name="mpesa_menu_6">6. Enter the generated transaction code as the account number</string>
+    <string name="mpesa_menu_7">7. Enter pin and click submit</string>
+    <string name="mpesa_menu_8">8. You will receive a confirmation message from iPay</string>
+
+    <string name="airtel_menu_1">1. Go to the Airtel Money menu on your phone</string>
+    <string name="airtel_menu_2">2. Select To Make Payments</string>
+    <string name="airtel_menu_3">3. Select Pay Bill</string>
+    <string name="airtel_menu_4">4. Select Others</string>
+    <string name="airtel_menu_5">5. Enter 510800 as the business number</string>
+    <string name="airtel_menu_6">6. Enter the amount you wish to top up your account with</string>
+    <string name="airtel_menu_7">7. Enter your PIN</string>
+    <string name="airtel_menu_8">8. Enter the generated transaction code as the reference number and send the money</string>
+    <string name="airtel_menu_9">9. You will receive a confirmation text from Airtel</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="help_text">It gets complicated at times.... We understand.  So if you need any help,  feel free to contact us through the channels below</string>
+    <string name="email">Email</string>
+    <string name="chooser_email_title">Send email…</string>
+    <string name="support_email">support@coverapp.co.ke</string>
+    <string name="support_phone_number">0740130001</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_add_vehicle">Add Vehicle</string>
+    <string name="progress_update_profile">Updating profile…</string>
+    <string name="invalid_id_no">Invalid ID number</string>
+    <string name="invalid_occupation">Invalid occupation</string>
+    <string name="invalid_kra">Invalid KRA PIN</string>
+    <string name="title_activity_post_alert">Post an Alert</string>
+    <string name="title_activity_notification">Notifications</string>
+    <string name="invalid_value">invalid value</string>
+    <string name="title_activity_purchase_cover">PurchaseCoverActivity</string>
+    <string name="title_top_up">Top Up Wallet</string>
+    <string name="fragment_tag_top_up">TopUpFragment</string>
+    <string name="progress_get_custom">Saving selection</string>
+    <string name="under_maintenance">Oops!, seems that part is still under construction, it will be sorted ASAP</string>
+    <string name="invalid_content">Field can\'t be empty</string>
+    <string name="get_started">Get Started</string>
+    <string name="free_roadside_assistance">Roadside assistance including emergency mechanical fixes, tire change, fuel delivery, flat battery service etc, and 1 free tow to Garage.</string>
+    <string name="emergency_ride_and_delivery">Emergency Ride and Delivery</string>
+    <string name="plumbing_emergencies">Plumbing emergencies, electrical emergencies, door locks and missing key emergencies etc.</string>
+    <string name="free_taxi_ride">A free taxi ride, free delivery of an essential item within Nairobi</string>
+    <string name="security_backup">Security Backup plan</string>
+    <string name="free_road_and_air_ambulance">Road and air ambulance service for member and declared family members.</string>
+    <string name="alarm_response">Armed response team to back up in a security situation.</string>
+    <string name="clean_water_delivery">Clean water delivery within Nairobi at a discounted rate. NOTE: Member will pay for the water delivery directly.</string>
+    <string name="content_emergency_bundle">Getting covered can be simpler. Cover yourself against all the common life\'s emergencies in one simple package. You are sure to experience the benefit of being covered.</string>
+    <string name="home_cover_intro">Get your home cover today and protect the things that mean most to you, depending on your selection you will get a quotation specific to your needs</string>
+    <string name="motor_cover_intro">Comprehensive Motor Insurance Cover provided by leading Kenyan Insurers. An option to include an unlimited free roadside assistance including emergency mechanical fixes, tire change, fuel delivery, flat battery service etc, and Unlimited free tow to Garage</string>
+    <string name="post_alert_intro">Seen or heard anything worth sharing? Post an alert to the CoverApp community</string>
+    <string name="pick_and_choose_your_preferred_emergency_cover">Pick and choose your preferred emergency cover benefits</string>
+    <string name="no_alerts_yet">No Alerts Yet :|</string>
+    <string name="no_assets_yet">No Assets Yet :(</string>
+    <string name="no_claims_yet">No Claims Yet :)</string>
+    <string name="all_common_life_s_emergencies_covered_in_one_package">All common life\'s emergencies covered in one package</string>
+    <string name="comprehensive_motor_insurance_cover_provided_by_leading_kenyan_insurers">Comprehensive Motor Insurance Cover provided by Leading Kenyan Insurers.</string>
+    <string name="cover_your_home_and_contents_through_leading_insurers_instantly_easily">Cover your home and contents through leading Insurers, instantly, with ease.</string>
+    <string name="tell_us_about_your_experience_with_us_openly_and_honestly">Tell us about your experience with us openly and honestly</string>
+    <string name="customize_your_own_user_experience_own_your_app">Customize your own user experience, own your app</string>
+    <string name="skip_getting_started_introduction">Skip getting started introduction</string>
+    <string name="skip_login_screen">Skip login screen</string>
+    <string name="no_tips_yet">No Tips Yet :|</string>
+    <string name="free_road_and_air_ambulance_service_for_member_and_declared_family_members">Free road and air ambulance service for member and declared family members.</string>
+    <string name="customised_bundle">Customised Bundle</string>
+    <string name="the_car_is_one_of_those_things_you_can_not_live_without_well_let_cover_app_ensure_that_plan_never_changes">The car is one of those things you don\'t want to live without... CoverApp will ensure you keep enjoying the services of your car</string>
+    <string name="give_us_a_try">Give us a try</string>
+    <string name="home_cover_can_be_such_a_hustle">Home Cover can be such a hustle</string>
+    <string name="yes_to_all_car_owners">Yes to all car owners!</string>
+    <string name="all_under_the_same_package_how_convenient_is_that">All under the same package, how convenient is that?</string>
+    <string name="enter_intended_top_up_amount">Enter intended top-up amount</string>
+    <string name="m_pesa_will_send_a_payment_request_to_the_number_entered_below_once_you_receive_the_request_just_enter_your_service_bonga_pin_to_complete_the_transaction">M-Pesa will send a payment request to the number entered below, once you receive the request just enter your service(bonga) PIN to complete the transaction</string>
+    <string name="m_pesa_in_app_payment">M-Pesa In-App Payment</string>
+    <string name="select_image">Select Image</string>
+    <string name="enter_your_details_here">Enter your details here</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="make_and_model">Make and Model</string>
+    <string name="year_of_manufacture">Year of Manufacture</string>
+    <string name="odometer_reading">Odometer Reading</string>
+    <string name="engine_cc">Engine CC</string>
+    <string name="car_value_estimate">Car Value Estimate</string>
+    <string name="purchase">Purchase</string>
+    <string name="no_image_error">You need to attach images to continue</string>
+    <string name="facebook_app_id">745375832291362</string>
+    <string name="fb_login_protocol_scheme">fb745375832291362</string>
+
+    <string name="title_activity_home_cover_steps">Home Cover Steps</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_slider">SliderActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="fragment_tag_add_assets">AddAssetsFragment</string>
+    <string name="title_add_assets">Save Assets</string>
+    <string name="title_my_assets">My Assets"</string>
+    <string name="title_edit_assets">Edit Assets</string>
+    <string name="fragment_tag_edit_assets">EditAssetsFragment</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_run_time_top_up">RunTimeTopUpActivity</string>
+    <string name="account_refresh">Account Refresh</string>
+
+    <string name="title_activity_payment_notification">PaymentNotificationActivity</string>
+    <string name="title_activity_buy_vehicle_cover">BuyVehicleCoverActivity</string>
+    <string name="text_roadside_emergency">Free roadside assistance including emergency mechanical fixes, tire change, fuel delivery, flat battery service etc, and 1 free tow to Garage.</string>
+    <string name="title_roadside_emergency">Roadside Emergency</string>
+    <string name="title_home_emergency">Home Emergency</string>
+    <string name="text_home_emergency">Plumbing emergencies, electrical emergencies, door locks and access emergencies etc.</string>
+    <string name="title_emergency_ride_delivery">Emergency Ride And Delivery</string>
+    <string name="text_ride_delivery">A free taxi ride; free delivery of an essential item within Nairobi.</string>
+    <string name="title_ambualance_rescue">Ambulance Rescue</string>
+    <string name="text_ambulance_rescue">Free road and air ambulance service for member and declared family members.</string>
+    <string name="title_emergency_water">Emergency water</string>
+    <string name="text_emergency_water">Clean water delivery within Nairobi at a discounted rate. \nNOTE: Member will pay for the water delivery.</string>
+    <string name="text_fire_rescue">Fire Engine Response</string>
+    <string name="title_fire_rescue">Fire Rescue</string>
+    <string name="title_security_backup">Security Backup</string>
+    <string name="text_security_backup">Alarm response team to back up in a security situation.</string>
+    <string name="no_vehicles_saved_message">You do not have vehicles saved within CoverApp</string>
+    <string name="edit_vehicle">Edit Vehicle Data</string>
+    <string name="buy_vehicle">Buy Vehicle Cover</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="to_forgot_password">Forgot\nPassword?</string>
+    <string name="to_create_account">Create\nAccount</string>
+    <string name="asset_details">Asset Details</string>
+    <string name="asset_name">Asset Name:</string>
+    <string name="asset_desc">Asset Desc:</string>
+    <string name="update">Update</string>
+    <string name="customized_dialog_desc">Getting covered can be simpler. Select the emergencies you would like to cover yourself in a customizable package.</string>
+    <string name="cancel">CANCEL</string>
+    <string name="notifications_enabled">Notifications have been enabled</string>
+    <string name="no_network_connection">You have no active internet connection. Reconnect and Retry</string>
+    <string name="legacyplan">Legacy Life Plan</string>
+    <string name="tpmotor">1 Month 3rd Party Motor Cover</string>
+    <string name="icea_travel_cover">Travel Cover</string>
+
+    <string name="invalid_passport_number">Invalid Passport Number</string>
+    <string name="message">This App will send you an SMS message to verify your phone number. Kindly enter your phone Number</string>
+    <string name="message2">Kindly, Wait an SMS verification code is beign sent to you shortly </string>
+    <string name="enter_phone_hint">Enter Phone Number..</string>
+    <string name="start_phone_auth">Start Verification</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="enter_verify_code">Enter SMS Code</string>
+    <string name="success_message">You have successfully Logged in</string>
+
+</resources>

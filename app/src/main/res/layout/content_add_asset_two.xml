@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_asset_two"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.coverapp.coverapp.activities.AddAssetActivity"
+    tools:showIn="@layout/activity_add_asset">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="50dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:paddingBottom="10dp"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/cover_app_logo" />-->
+
+                    <TextView
+                        android:id="@+id/intro_cover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="Add assets here to keep track of your belongings"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="1dp">-->
+
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_one"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:src="@drawable/cover_app_logo"-->
+            <!--android:padding="1dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:weightSum="1">-->
+
+            <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:id="@+id/image_one_gallery"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:background="@drawable/custom_bg"-->
+            <!--android:text="@string/gallery"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white" />-->
+
+            <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:id="@+id/image_one_camera"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:background="@drawable/custom_bg"-->
+            <!--android:text="@string/camera"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="2dp">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/image_two"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/cover_app_logo"-->
+            <!--android:padding="1dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:weightSum="1">-->
+
+            <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:id="@+id/image_two_gallery"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:background="@drawable/custom_bg"-->
+            <!--android:text="@string/gallery"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white" />-->
+
+            <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:id="@+id/image_two_camera"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:background="@drawable/custom_bg"-->
+            <!--android:text="@string/camera"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/icons"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:background="@drawable/inner_bg"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/titillium_web"
+                            android:padding="10dp"
+                            android:text="Asset Image"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:id="@+id/image_one"
+                            android:layout_width="fill_parent"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:adjustViewBounds="true"
+                            android:background="@android:color/white"
+                            android:src="@drawable/camera_icon"
+                            android:padding="1dp"
+                            android:scaleType="fitCenter"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorPrimary" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.AppCompatButton
+                                android:id="@+id/image_one_gallery"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/custom_bg"
+                                android:fontFamily="@font/titillium_web"
+                                android:text="@string/gallery"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/white"
+                                android:visibility="gone" />
+
+                            <android.support.v7.widget.AppCompatButton
+                                android:id="@+id/image_one_camera"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/custom_bg"
+                                android:fontFamily="@font/titillium_web"
+                                android:text="@string/camera"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/white" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:background="@drawable/inner_bg"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="Asset Data"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/titillium_web"
+                            android:padding="10dp"
+                            android:text="Name"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/layout_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/asset_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/rounded_edittext"
+                                android:fontFamily="@font/titillium_web"
+                                android:hint="Name"
+                                android:inputType="text|textCapWords"
+                                android:maxLines="1"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="15sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/titillium_web"
+                            android:padding="10dp"
+                            android:text="Description"
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/layout_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/asset_desc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.7"
+                                android:background="@drawable/rounded_edittext"
+                                android:fontFamily="@font/titillium_web"
+                                android:gravity="top"
+                                android:hint="Description"
+                                android:inputType="text|textMultiLine"
+                                android:maxLines="3"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="15sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/titillium_web"
+                            android:padding="10dp"
+                            android:text="Serial No."
+                            android:textColor="@color/colorSecondaryText"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/layout_serial"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/asset_serial"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.7"
+                                android:background="@drawable/rounded_edittext"
+                                android:fontFamily="@font/titillium_web"
+                                android:gravity="top"
+                                android:inputType="text|textMultiLine"
+                                android:maxLines="3"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="15sp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:id="@+id/addImeiCard"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Tip: Adding IMEI"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="1.  Come out of the app and go to your phone's dial/call pad, type *#06# and click on dial/call."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="2. Take a screenshot of the pop up number by long pressing your power and minimize volume buttons together."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="3. NB: Please note that some phones may vary on how to take a screenshot. Go back to the CoverApp and upload your phone's IMEI screenshot as the picture from your phone's gallery."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/titillium_web"
+                        android:padding="10dp"
+                        android:text="4. Login on the app again and go to ‘My Assets’, click on ‘Electronics’ then on gallery and upload the IMEI screenshot you had taken. Fill in the rest of phone the description as requested then click on ‘Save Asset’."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="1">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:text="Category:"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="17sp" />-->
+
+            <!--<Spinner-->
+            <!--android:id="@+id/asset_category"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--</Spinner>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="1">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.3"-->
+            <!--android:text="Type:"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:textColor="@color/colorSecondaryText"-->
+            <!--android:textSize="17sp" />-->
+
+            <!--<Spinner-->
+            <!--android:id="@+id/asset_type"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--</Spinner>-->
+
+            <!--</LinearLayout>-->
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/save_asset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_bg"
+                android:fontFamily="@font/titillium_web"
+                android:padding="15dp"
+                android:text="Save Asset"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

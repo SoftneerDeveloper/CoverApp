@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.coverapp.coverapp.activities.FeedbackActivity"
+    tools:showIn="@layout/activity_feedback">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:src="@drawable/chat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:fontFamily="@font/titillium_web"
+                    android:textStyle="bold"
+                    android:padding="20dp"
+                    android:text="@string/help_text" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/wallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/help_call"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imghelp_call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:src="@drawable/call_icon"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imghelp_call"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:text="Call Us"/>
+    
+    
+</RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/colorDivider"
+                        android:layout_marginLeft="80dp"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/help_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imghelp_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:src="@drawable/mail_icon"
+                        style="?android:attr/borderlessButtonStyle"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imghelp_email"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_centerInParent="true"
+                        android:text="Email"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/colorDivider"
+                        android:layout_marginLeft="80dp"
+
+                        />
+                    <RelativeLayout
+                        android:id="@+id/help_skype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imghelp_skype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:text="Skype"
+                        android:src="@drawable/skype_icon"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imghelp_skype"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_centerInParent="true"
+                            android:text="Skype"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/colorDivider"
+                        android:layout_marginLeft="80dp"
+
+                        />
+                    <RelativeLayout
+                        android:id="@+id/help_whatsapp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/imghelp_whatsapp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:src="@drawable/whatsapp_coverapp"
+                        style="?android:attr/borderlessButtonStyle"
+                         />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imghelp_whatsapp"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_centerInParent="true"
+                            android:text="Whatsapp "/>
+                    </RelativeLayout>
+                </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+</FrameLayout>

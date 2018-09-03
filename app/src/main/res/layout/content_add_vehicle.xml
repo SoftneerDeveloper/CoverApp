@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add_vehicle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.coverapp.coverapp.activities.AddVehicleActivity"
+    tools:showIn="@layout/activity_add_vehicle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/titillium_web"
+                android:padding="15dp"
+                android:text="@string/enter_your_details_here"
+                android:textColor="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/image_one"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_one_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_one_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:id="@+id/image_two"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:background="@android:color/white"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_two_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_two_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/image_three"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_three_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_three_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:id="@+id/image_four"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="150dp"
+                        android:minHeight="150dp"
+                        android:maxWidth="150dp"
+                        android:minWidth="150dp"
+                        android:background="@android:color/white"
+                        android:src="@drawable/vehicle"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_four_gallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/gallery"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/image_four_camera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/custom_bg"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="@string/camera"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_vehicle_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/vehicle_make"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:fontFamily="@font/titillium_web"
+                    android:hint="@string/make_and_model"
+                    android:inputType="text|textCapWords"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_yom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/yom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:fontFamily="@font/titillium_web"
+                    android:hint="@string/year_of_manufacture"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/layout_plate_first"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/plate_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_edittext"
+                        android:fontFamily="@font/titillium_web"
+                        android:hint="KKK"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="3"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/layout_plate_last"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/plate_last"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_edittext"
+                        android:fontFamily="@font/titillium_web"
+                        android:hint="123Y"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_odometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/odometer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:fontFamily="@font/titillium_web"
+                    android:hint="@string/odometer_reading"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_engine_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/engine_capacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:fontFamily="@font/titillium_web"
+                    android:hint="@string/engine_cc"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/layout_car_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/car_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:fontFamily="@font/titillium_web"
+                    android:hint="@string/car_value_estimate"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="15sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/purchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_bg"
+                android:fontFamily="@font/titillium_web"
+                android:padding="20dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

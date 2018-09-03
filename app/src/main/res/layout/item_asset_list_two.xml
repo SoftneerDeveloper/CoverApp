@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="1"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hc_asset_id"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/hc_asset_id_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/titillium_web"
+        android:text="TextView. " />
+
+    <TextView
+        android:id="@+id/hc_asset_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/titillium_web"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/hc_btn_view"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="@font/titillium_web"
+        android:text="REMOVe"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary" />
+
+</GridLayout>

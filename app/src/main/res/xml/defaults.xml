@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>has_roadside</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_roadside</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_emergency_ride_delivery</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_ambulance_service</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_security_backup</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_fire_rescue</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_emergency_water</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_custom_bundle</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_vehicle_cover</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>has_cover_bundle</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

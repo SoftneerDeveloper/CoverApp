@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ke.co.coverapp.coverapp.fragments.SettingsFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="70dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/titillium_web"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:text="@string/customize_your_own_user_experience_own_your_app"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:fontFamily="@font/titillium_web"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/skip_getting_started_introduction"
+                    android:textColor="@color/colorPrimaryText" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/skip_getting_started"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:fontFamily="@font/titillium_web" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:fontFamily="@font/titillium_web"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/skip_login_screen"
+                    android:textColor="@color/colorPrimaryText" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/skip_login_screen"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:fontFamily="@font/titillium_web" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2e8c1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#672D2F"
+
+                android:text="About CoverApp"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:text="CoverApp is an insurtech solution that allows clients to access and purchase insurance on-the-go Our mission is to make insurance accessible to those who need it most through a process that is enlightening, fun, simple, convenient and innovative.  We have heard what people desire and we want our clients to feel informed, empowered and progressive." />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

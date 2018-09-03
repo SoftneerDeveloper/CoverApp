@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ke.co.coverapp.coverapp.activities.LegacyLifePlan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/fab_label_background"
+                android:padding="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="TextView"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/benefits_tableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:padding="5dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView103"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView104"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Silver" />
+
+                            <TextView
+                                android:id="@+id/textView105"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Gold" />
+
+                            <TextView
+                                android:id="@+id/textView106"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Platinum" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView119"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Funeral Benefit " />
+
+                            <TextView
+                                android:id="@+id/textView120"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 100,000 " />
+
+                            <TextView
+                                android:id="@+id/textView121"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 200,000 " />
+
+                            <TextView
+                                android:id="@+id/textView122"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 500,000 " />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#d6cfcf"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView123"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView124"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 100,000 " />
+
+                            <TextView
+                                android:id="@+id/textView125"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 200,000 " />
+
+                            <TextView
+                                android:id="@+id/textView126"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 500,000 " />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView107"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView108"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView109"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/textView110"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#d6cfcf"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView111"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Family Care Benefit " />
+
+                            <TextView
+                                android:id="@+id/textView112"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 20,000" />
+
+                            <TextView
+                                android:id="@+id/textView113"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 40,000" />
+
+                            <TextView
+                                android:id="@+id/textView114"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 100,000" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/textView115"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Maandalizi Benefit " />
+
+                            <TextView
+                                android:id="@+id/textView116"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 50,000 " />
+
+                            <TextView
+                                android:id="@+id/textView117"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 100,000 " />
+
+                            <TextView
+                                android:id="@+id/textView118"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ksh. 250,000 " />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/buttonSelectPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_bg"
+                android:padding="5dp"
+                android:text="Select Plan"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:id="@+id/Layout_step_onelabel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fab_label_background"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Step One:"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/individual_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/individual" />
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:text="Individual Package" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/legacyfamily" />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Family Package" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/family" />
+
+                    <TextView
+                        android:id="@+id/textView65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Add Parent Cover?" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fab_label_background"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Step Two:"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/silver" />
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Silver" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/gold" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Gold" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/platinum" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Platinum" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/spouse_and_kids_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/fab_label_background"
+                        android:text="Your Details"
+                        android:textColor="#fff" />
+
+                    <Switch
+                        android:id="@+id/switchSpouse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have a Spouse"
+                        android:textOff="No"
+                        android:textOn="Yes" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/TextInputLayout_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:foreground="@drawable/inner_bg"
+                        android:visibility="gone">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/TextInputEditText_Name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/TextInputLayout_IdNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:foreground="@drawable/inner_bg"
+                        android:visibility="gone">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/TextInputEditText_IdNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Id Number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/TextInputLayout_PhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:foreground="@drawable/inner_bg"
+                        android:visibility="gone">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/TextInputEditText_PhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone Number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/TextViewDOB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/fab_label_background"
+                        android:padding="5dp"
+                        android:text="Date of Birth"
+                        android:textColor="#fff"
+                        android:visibility="gone" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/spouse_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.7"
+                        android:focusable="false"
+                        android:foreground="@drawable/inner_bg"
+                        android:hint="Spouse Date of birth"
+                        android:inputType="text|textCapWords"
+                        android:maxLines="1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Proceed"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/spouse_and_kids_info2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/switchKids"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Do you Have Kids?"
+                    android:textOff="No"
+                    android:textOn="Yes"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fab_label_background"
+                    android:text="How many Kids are you travelling with? Input zero if none."
+                    android:textColor="#fff"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/kids_number_TextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="@drawable/inner_bg"
+                        android:visibility="gone">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/kids_number_TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:hint="Number of Kids."
+                            android:padding="5dp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:text="Continue"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/add_parents_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Switch
+                        android:id="@+id/switch_ParentsCover"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Do you want to include the parent Cover?"
+                        android:textOff="No"
+                        android:textOn="Yes" />
+
+                    <LinearLayout
+                        android:id="@+id/add_parent_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_bg"
+                            android:padding="5dp"
+                            android:text="NO"
+                            android:textColor="#fff" />
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_bg"
+                            android:padding="5dp"
+                            android:text="Add Parent Cover"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fab_label_background"
+                        android:padding="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="How many Parents? (Max 4)"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic"
+                        android:visibility="gone" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/layout_editText_parents_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:foreground="@drawable/inner_bg"
+                        android:visibility="gone">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editText_parents_num"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Parents Number"
+                            android:inputType="number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/fab_label_background"
+                        android:padding="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Parent Cover Type"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic"
+                        android:visibility="gone" />
+
+                    <Spinner
+                        android:id="@+id/spinner3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:entries="@array/covertypes"
+                        android:foreground="@drawable/inner_bg"
+                        android:padding="5dp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_bg"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Next"
+                        android:textColor="#fff" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/fab_label_background"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Step Three:"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView69"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="Select Payment Interval"
+                            android:textSize="14sp"
+                            android:textStyle="bold|italic" />
+
+                        <Spinner
+                            android:id="@+id/spinner2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="5dp"
+                            android:entries="@array/payment_period"
+                            android:foreground="@drawable/inner_bg"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:id="@+id/textView75"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp"
+                            android:textStyle="bold|italic"
+                            android:visibility="gone" />
+
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp"
+                            android:textStyle="bold|italic"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp"
+                            android:textStyle="bold|italic"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/fab_label_background"
+                            android:padding="5dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:textColor="#fff"
+                            android:textSize="14sp"
+                            android:textStyle="bold|italic"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/custom_bg"
+                            android:padding="5dp"
+                            android:text="Next"
+                            android:textColor="#fff"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/layout_kidsHorizontalScroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/fab_label_background"
+                    android:padding="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Enter your Kids details"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+
+                <HorizontalScrollView
+                    android:id="@+id/HorizontalScrollViewKids"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids1"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="First child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView85"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert1"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids2"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Second child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView86"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert2"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids3"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Third child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView87"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert3"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids4"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Fourth child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView88"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert4"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids5"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Fifth child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView89"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert5"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_kids6"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView_header6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Sixth child"
+                                    android:textColor="#fff" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/TextInputLayout_name6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/TextInputEditText_name6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textView_DOB6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Childs Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/kids_date_of_birth6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="0.7"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="D.O.B"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/textView90"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold|italic"
+                                    android:text="Gender" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_kids_gender6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:entries="@array/gender"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <TextView
+                                    android:id="@+id/textView_takePhoto6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Take a photo, or Upload a scanned copy, of birth certicficate"
+                                    android:textColor="#fff" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <Button
+                                        android:id="@+id/button_upload_photo6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Upload"
+                                        android:textColor="#fff" />
+
+                                    <Button
+                                        android:id="@+id/button_open_camera6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/custom_bg"
+                                        android:padding="5dp"
+                                        android:text="Camera"
+                                        android:textColor="#fff" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/imageView_birth_cert6"
+                                    android:layout_width="200dp"
+                                    android:layout_height="150dp"
+                                    android:layout_margin="5dp"
+                                    app:srcCompat="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/nextToLayout_parentRecycler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Next"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_parentRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fab_label_background"
+                    android:padding="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Fill in the Parents Details"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/layout_horizontal_scroll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_parent1"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/textView_header1parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Add First Parent"
+                                    android:textColor="#fff"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView_relationshipSpinner1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Relationship:"
+                                    android:textColor="#fff" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_relationship1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:entries="@array/parent_relationship"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_name_layout1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_name_editText1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textViewDOB1parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/pd_date_of_birth1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_weight="0.7"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="Date of Birth"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_id_layout1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_id_editText1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Id Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_phone_layout1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_phone_EditText1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_parent2"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/textView_header2parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Add Second Parent"
+                                    android:textColor="#fff"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView_relationshipSpinner2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Relationship:"
+                                    android:textColor="#fff" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_relationship2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:entries="@array/parent_relationship"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_name_layout2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_name_editText2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textViewDOB2parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/pd_date_of_birth2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_weight="0.7"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="Date of Birth"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_id_layout2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_id_editText2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Id Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_phone_layout2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_phone_EditText2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_parent3"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/textView_header3parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Add Third Parent"
+                                    android:textColor="#fff"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView_relationshipSpinner3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Relationship:"
+                                    android:textColor="#fff" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_relationship3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:entries="@array/parent_relationship"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_name_layout3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_name_editText3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textViewDOB3parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/pd_date_of_birth3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_weight="0.7"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="Date of Birth"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_id_layout3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_id_editText3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Id Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_phone_layout3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_phone_EditText3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView_parent4"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            app:cardElevation="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/textView_header4parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Add Fourth Parent"
+                                    android:textColor="#fff"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView_relationshipSpinner4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Relationship:"
+                                    android:textColor="#fff" />
+
+                                <Spinner
+                                    android:id="@+id/spinner_relationship4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginStart="5dp"
+                                    android:entries="@array/parent_relationship"
+                                    android:foreground="@drawable/inner_bg" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_name_layout4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_name_editText4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Name"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <TextView
+                                    android:id="@+id/textViewDOB4parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/fab_label_background"
+                                    android:padding="5dp"
+                                    android:text="Date of Birth"
+                                    android:textColor="#fff" />
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/pd_date_of_birth4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="0dp"
+                                    android:layout_weight="0.7"
+                                    android:background="@drawable/rounded_edittext"
+                                    android:focusable="false"
+                                    android:foreground="@drawable/inner_bg"
+                                    android:hint="Date of Birth"
+                                    android:inputType="text|textCapWords"
+                                    android:maxLines="1"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_id_layout4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_id_editText4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Id Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/pd_phone_layout4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="0dp"
+                                    android:foreground="@drawable/inner_bg">
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/pd_phone_EditText4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Phone Number"
+                                        android:maxLines="1" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <Button
+                    android:id="@+id/nextTocardview_final"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bg"
+                    android:padding="5dp"
+                    android:text="Next"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView_beneficiary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewlabelBeneficiary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/fab_label_background"
+                        android:padding="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Beneficiary Details"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/beneficiary_name_TextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/inner_bg">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/beneficiary_name_TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Full Names" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/beneficiary_idNumber_TextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/inner_bg">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/beneficiary_idNumber_TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="National Id Number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/beneficiary_phone_TextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/inner_bg">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/beneficiary_phone_TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone Number" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/beneficiary_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.7"
+                        android:focusable="false"
+                        android:foreground="@drawable/inner_bg"
+                        android:hint="Date of Birth"
+                        android:inputType="text|textCapWords"
+                        android:maxLines="1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView132"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.7"
+                        android:background="@drawable/fab_label_background"
+                        android:padding="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="Gender" />
+
+                    <Spinner
+                        android:id="@+id/beneficiary_gender_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.7"
+                        android:entries="@array/gender"
+                        android:foreground="@drawable/inner_bg" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg"
+                        android:padding="10dp"
+                        android:text="Proceed to Check Out"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_final"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/custom_bg"
+                        android:padding="5dp"
+                        android:text="Buy"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

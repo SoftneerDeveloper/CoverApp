@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="ke.co.coverapp.coverapp.fragments.CoversFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:clickable="true"
+            android:elevation="2dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:id="@+id/coverFragmentError">
+
+
+            <ImageView
+                android:id="@+id/imgproducts"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bg_circle"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:tint="@color/colorPrimary"
+                android:layout_marginBottom="@dimen/dimen_8dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_error_outline_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/titillium_web"
+                android:textStyle="bold"
+                android:text="No purchased covers found"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buyCoverFragmentCovers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/titillium_web"
+                android:text="Buy Cover"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/coversRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:clipToPadding="false"/>
+
+    </LinearLayout>
+
+</FrameLayout>

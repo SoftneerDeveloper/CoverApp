@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ke.co.coverapp.coverapp.fragments.AssetsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!--<Button-->
+                <!--android:id="@+id/button_to_edit_asset"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:background="@drawable/custom_bg"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="Edit Asset"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:textColor="@android:color/white" />-->
+
+
+            <Button
+                android:id="@+id/button_to_add_asset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/custom_bg"
+                android:fontFamily="@font/titillium_web"
+                android:padding="15dp"
+                android:text="Add Asset"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/assetsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:clipToPadding="false"/>
+
+    </LinearLayout>
+
+</ScrollView>

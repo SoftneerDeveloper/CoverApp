@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    style="?android:attr/borderlessButtonStyle"
+    android:orientation="vertical">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/titillium_web" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/log_google"
+        android:id="@+id/imgSignGoogle"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/login_to_signup_view"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:fontFamily="@font/titillium_web"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+
+
+</LinearLayout>

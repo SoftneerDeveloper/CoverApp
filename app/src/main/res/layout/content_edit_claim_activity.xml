@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ke.co.coverapp.coverapp.activities.EditClaimActivity"
+    tools:showIn="@layout/activity_edit_claim">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="50dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:paddingBottom="10dp"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/intro_claim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Edit the claim details and submit to complete. The claim will only be considered if every detail has been filled."
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:paddingBottom="10dp"
+                card_view:cardCornerRadius="0dp">
+
+                <!-- Have the rest of the form -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Claim details"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="10dp"/>
+<!--layout bellow to be used when editing asset-->
+                    <LinearLayout
+                        android:visibility="visible"
+                        android:id="@+id/asset_damaged_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/asset_damaged"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Assets damaged"
+                        android:padding="5dp"
+                        android:textColor="@android:color/black"/>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorAccent"/>
+                    </LinearLayout>
+
+        <!--layout bellow to be hidden when editing claim-->
+                    <LinearLayout
+                        android:id="@+id/claim_select_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select assets that were damaged"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black"/>
+
+                    <Spinner
+                        android:id="@+id/assets_list_claims"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/asset_list"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:popupBackground="@color/colorAccent">
+
+                    </Spinner>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select what happened"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Exclusions: Wear &amp; tear and depreciation, Electrical and mechanical breakdown, Losses outside the territorial limits, Theft by a relative and Loss of items in the vehicles unless in locked boot or locker."
+                        android:padding="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="italic"/>
+
+                    <Spinner
+                        android:id="@+id/covered_options_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:popupBackground="@color/colorAccent"
+                        android:entries="@array/what_is_covered"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="When did it happen?"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click below to select the date"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="italic"/>
+                    <CalendarView
+                        android:id="@+id/calendarView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/claim_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_edittext"
+                        android:inputType="text|textCapWords"
+                        android:maxLines="1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15sp"
+                        android:layout_margin="10dp"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Where did it happen?"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/layout_claim_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/claim_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_edittext"
+                            android:hint="Enter location e.g. Yaya center, Hurlingam"
+                            android:inputType="text|textCapWords"
+                            android:maxLines="1"
+                            android:textColor="@color/colorPrimaryText"
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                android:paddingBottom="10dp"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proof of damage"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Current picture:"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black"/>
+
+                    <ImageView
+                        android:id="@+id/image_asset"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/camera_icon"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="end">
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/claim_asset_img_gallery"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gallery"
+                            android:textColor="@color/colorPrimary"
+                            android:textAllCaps="true"/>
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/claim_asset_img_camera"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Camera"
+                            android:textColor="@color/colorPrimary"
+                            android:textAllCaps="true"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Police abstract:"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black"/>
+
+                    <ImageView
+                        android:id="@+id/img_police_abstract"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="1dp"
+                        android:adjustViewBounds="true"
+                        android:background="@android:color/white"
+                        android:src="@drawable/camera_icon"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="end">
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/claim_police_abstract_gallery"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gallery"
+                            android:textColor="@color/colorPrimary"
+                            android:textAllCaps="true"/>
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/claim_police_abstract_camera"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Camera"
+                            android:textColor="@color/colorPrimary"
+                            android:textAllCaps="true"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NOTE"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Manage your inventory under My Assets on the main menu"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <CheckBox
+                            android:id="@+id/terms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/MyCheckBox"
+                            android:checked="false"
+                            android:text="I accept "
+                            />
+
+                        <TextView
+                            android:id="@+id/terms_home_cover"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Terms and conditions"
+                            android:textStyle="italic"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/submit_claim"
+                            android:layout_width="wrap_content"
+                            android:textColor="@color/colorAccent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:text="SUBMIT"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

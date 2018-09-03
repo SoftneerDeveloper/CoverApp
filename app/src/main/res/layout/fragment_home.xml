@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="ke.co.coverapp.coverapp.fragments.HomeFragment">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryLight"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/txtprofile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hey Sir Preston Maina (5)"
+                        android:fontFamily="@font/titillium_web"
+                        android:textStyle="bold"
+                        android:textColor="@color/contact_name"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtprofile"
+                        android:fontFamily="@font/titillium_web"
+                        android:text="Add assets to your account."
+                        android:textColor="@color/chef"
+                        android:textSize="15sp" />
+                    <ImageView
+                        android:id="@+id/imgprofile"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_circle"
+                        android:layout_alignParentRight="true"
+                        android:clickable="true"
+                        android:tint="@color/colorPrimary"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_add_circle_black_24dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:clickable="true"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryLight"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_8dp"
+                    >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/activity_horizontal_margin">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_8dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="Wallet Balance"/>
+                        <ImageView
+                            android:id="@+id/refresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_refresh_black_24dp"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/balance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_8dp"
+                            android:fontFamily="@font/titillium_web"
+                            android:letterSpacing="0.1"
+                            android:text="KES 2,350.64"
+                            android:textColor="@android:color/white"
+                            android:textSize="26sp" />
+                        <LinearLayout
+                            android:id="@+id/topup"
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_circle3"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentRight="true"
+
+                            >
+
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:paddingLeft="6dp"
+                                android:paddingTop="8dp"
+                                android:paddingBottom="4dp"
+                                android:src="@drawable/ic_add_black_24dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/titillium_web"
+                                android:paddingRight="6dp"
+                                android:paddingTop="6dp"
+                                android:paddingBottom="6dp"
+                                android:textAllCaps="false"
+                                android:text="Top up"
+                                android:layout_marginRight="4dp"
+                                android:textColor="@color/white"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_weight="2">
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/products"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/dimen_8dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                        <ImageView
+                            android:id="@+id/imgproducts"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/bg_circle"
+                            android:clickable="true"
+                            android:tint="@color/colorPrimary"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_list_black_24dp" />
+                        <TextView
+                            android:id="@+id/txtproducts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/titillium_web"
+                            android:layout_below="@id/imgproducts"
+                            android:gravity="center"
+                            android:text="Our Products"
+                            android:textStyle="bold"
+                            android:textColor="@color/contact_name"
+                            android:textSize="15sp" />
+                        <View
+                            android:id="@+id/vproducts"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_margin="@dimen/dimen_8dp"
+                            android:background="@color/placeholder_bg"
+                            android:layout_below="@+id/txtproducts"
+                            />
+                        <TextView
+                            android:id="@+id/dscproducts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/vproducts"
+                            android:fontFamily="@font/titillium_web"
+                            android:gravity="center"
+                            android:padding="@dimen/dimen_8dp"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:text="there is variety to choose from"
+                            android:textColor="@color/timestamp" />
+
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/covers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/dimen_8dp"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                        <ImageView
+                            android:id="@+id/imgcovers"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/bg_circle"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:clickable="true"
+                            android:tint="@color/colorPrimary"
+                            android:padding="12dp"
+                            android:src="@drawable/ic_beach_access_black_24dp" />
+                        <TextView
+                            android:id="@+id/txtcovers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/titillium_web"
+                            android:layout_below="@id/imgcovers"
+                            android:gravity="center"
+                            android:text="My Covers"
+                            android:textStyle="bold"
+                            android:textColor="@color/contact_name"
+                            android:textSize="15sp" />
+                        <View
+                            android:id="@+id/v2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_margin="@dimen/dimen_8dp"
+                            android:background="@color/placeholder_bg"
+                            android:layout_below="@+id/txtcovers"
+                            />
+                        <TextView
+                            android:id="@+id/dsccovers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/v2"
+                            android:gravity="center"
+                            android:fontFamily="@font/titillium_web"
+                            android:padding="@dimen/dimen_8dp"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:text="view your current covers"
+                            android:textColor="@color/timestamp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:elevation="2dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/claim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/activity_horizontal_margin"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgclaim"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_circle"
+                            android:clickable="true"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:tint="@color/colorPrimary"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_monetization_on_black_24dp" />
+                        <TextView
+                            android:id="@+id/txtclaim"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imgclaim"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="Claim"
+                            android:textStyle="bold"
+                            android:textColor="@color/contact_name"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imgclaim"
+                            android:layout_below="@+id/txtclaim"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="perform and report a claim."
+                            android:textColor="@color/chef"
+                            android:textSize="15sp" />
+
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:id="@+id/v"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/placeholder_bg"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/feedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/activity_horizontal_margin"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgfeedback"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_circle"
+                            android:clickable="true"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:tint="@color/colorPrimary"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_feedback_black_24dp" />
+                        <TextView
+                            android:id="@+id/txtfeedback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imgfeedback"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="Give feedback"
+                            android:textStyle="bold"
+                            android:textColor="@color/contact_name"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imgfeedback"
+                            android:layout_below="@+id/txtfeedback"
+                            android:fontFamily="@font/titillium_web"
+                            android:text="tell us about your experience openly."
+                            android:textColor="@color/chef"
+                            android:textSize="15sp" />
+
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:id="@+id/v11"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/placeholder_bg"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/activity_horizontal_margin"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgsettings"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_circle"
+                            android:clickable="true"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:tint="@color/colorPrimary"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_settings_black_24dp" />
+                        <TextView
+                            android:id="@+id/txtsettings"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/titillium_web"
+                            android:layout_toRightOf="@+id/imgsettings"
+                            android:text="Settings"
+                            android:textStyle="bold"
+                            android:textColor="@color/contact_name"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/imgsettings"
+                            android:layout_below="@+id/txtsettings"
+                            android:text="Customize to your preferences"
+                            android:fontFamily="@font/titillium_web"
+                            android:textColor="@color/chef"
+                            android:textSize="15sp" />
+
+
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

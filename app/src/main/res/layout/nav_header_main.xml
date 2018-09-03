@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSideBarHeader"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_prof_pic"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/side_icon"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/nav_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="CoverApp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:fontFamily="@font/titillium_web"
+        android:text="@string/support_email"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="1"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hc_asset_id">
+
+    <CheckBox
+        android:id="@+id/hc_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/titillium_web"
+        android:text=""
+        android:theme="@style/MyCheckBox" />
+
+    <TextView
+        android:id="@+id/hc_asset_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/titillium_web"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/hc_btn_view"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="@font/titillium_web"
+        android:text="View"
+        android:textColor="@color/colorAccent" />
+
+</GridLayout>

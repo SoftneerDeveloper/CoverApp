@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ke.co.coverapp.coverapp">
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBVWtyKqxFojsqZxzPFfiHsKD8wAD7iXgc" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Required on api < 21 if you are using setRequiredNetworkType(int) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Required on all api levels if you are using setPersisted(true) -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Required on all api levels if you are accessing user contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Required on all api levels if you are intending to listen to received texts -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <!-- Required on all api levels if you are intending to read texts -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <!-- Required on all api levels if you are intending to access user gallery -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required on all api levels if you are intending to use the camera -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- facebook meta -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!-- End of facebook meta -->
+
+
+        <!-- Facebook custom  google tab -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <!-- End of Facebook custom  google tab -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" >
+        <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity -->
+        <!-- android:name=".activities.CorouselActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".activities.TipsAlertsActivity"
+            android:label="@string/title_activity_tips_alerts"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EmergencyBundleActivity"
+            android:label="@string/title_activity_emergency_bundle"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.VehicleBundleActivity"
+            android:label="@string/title_activity_motor_bundle"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.HomeBundleActivity"
+            android:label="@string/title_activity_home_bundle"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.CustomBundleActivity"
+            android:label="@string/title_activity_custom_bundle"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OpenHomeCoverInfoViewFragment"
+            android:label="1 Month 3rd Party Motor Cover"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OpenHomeCoverInfoViewFragment2"
+            android:label="TP 30 Day Motor Cover"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OpenHomeCoverInfoViewFragment3"
+            android:label="TP 30 Day Motor Cover"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditAssetActivity"
+            android:label="Edit Asset"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddVehicleActivity"
+            android:label="@string/title_activity_add_vehicle"
+            android:parentActivityName=".activities.VehicleBundleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditVehicleActivity"
+            android:label="Edit Vehicle"
+            android:parentActivityName=".activities.VehicleBundleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PostAlertActivity"
+            android:label="@string/title_activity_post_alert"
+            android:parentActivityName=".activities.TipsAlertsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:parentActivityName=".activities.TipsAlertsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- <activity -->
+        <!-- android:name=".activities.SliderActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!--  -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activities.DetailActivity" -->
+        <!-- android:label="@string/title_activity_detail" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".activities.IntroActivity"
+            android:label="@string/title_activity_intro"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".activities.RunTimeTopUpActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".activities.PaymentNotificationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_payment_notification"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activities.AddNewAssetHomeCover"
+            android:label="Add assets"
+            android:parentActivityName=".activities.SelectAssetHomeCover" />
+        <activity
+            android:name=".activities.SelectAssetHomeCover"
+            android:label="Select assets"
+            android:parentActivityName=".activities.HomeBundleActivity" />
+        <activity
+            android:name=".activities.BuyHomeCover"
+            android:label="Buy home cover"
+            android:parentActivityName=".activities.HomeBundleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ReportClaimsActivity"
+            android:label="Report claim"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddAssetActivity"
+            android:label="Add asset"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AssetsActivity"
+            android:label="View assets"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditClaimActivity"
+            android:label="Edit claim"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewCoverActivity"
+            android:label="Cover Details"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragments.MonthLongVehicleInsurance" />
+        <activity android:name=".activities.LegacyLifePlan" />
+        <activity android:name=".activities.IceaTravelCover" />
+        <activity android:name=".activities.LegacyLifeClaims" />
+        <activity android:name=".activities.TravelInsuranceClaims" />
+        <activity android:name=".activities.ThirdPartyMotorClaims"></activity>
+    </application>
+
+</manifest>
