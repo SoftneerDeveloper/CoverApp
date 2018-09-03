@@ -104,7 +104,8 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="@dimen/dimen_8dp">
+                        android:paddingTop="@dimen/dimen_8dp"
+                        android:paddingBottom="@dimen/dimen_8dp">
                         <TextView
                             android:layout_width="wrap_content"
                             android:textColor="@color/white"
